@@ -20,7 +20,17 @@ Linear Regression `y=mx+b`
 
 | Terminology | Description |
 | --- | --- |
-| `bias` | In the formula `y=mx+b`: `b` is the **bias** term which indicates the value of the model when every weights values are zeros |
-| `inference` | Inference is the practice of feeding unseen data into a **trained model** to calculate the output |
-| `linear regression` | Machine Learning model which learns the pattern from the input data and then predicts **floating point number**. The input features dimension is two |
-| `weight` | Set of **parameters** resulted from training the model, these **weights** then multiplying with features for inference  |
+| `bias` | in the formula `y=mx+b`: `b` is the **bias** term which indicates the value of the model when every weights values are zeros |
+| `inference` | inference is the practice of feeding unseen data into a **trained model** to calculate the output |
+| `linear regression` | machine Learning model which learns the pattern from the input data and then predicts **floating point number**. The input features dimension is two |
+| `weight` | set of **parameters** resulted from training the model, these **weights** then multiplying with features for inference  |
+
+Training and Loss
+
+| Terminology | Description |
+| --- | --- |
+| `empirical risk minimization` | choosing a function that minimizes loss manually, contrast to **structural risk minimization**  |
+| `loss` | **loss** is the value that we try to minimize when learning, the loss value is calculated at the end of  the **forward** pass of the **training**|
+| `mean squared error` | this is one kind of **loss function** used mostly for **linear regression** problems and **mean squared error = squared loss/number of examples** |
+| `squared loss` | one kind of **loss function** used mostly for **regression** problems|
+| `training` | the practice of updating model weights that minimize **loss** to learning the patterns from the training data set |
