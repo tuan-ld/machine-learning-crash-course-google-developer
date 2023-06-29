@@ -48,3 +48,27 @@
 | --- | --- |
 | `gradient descent` | the algorithm to find the best params to **minimize loss** through gradually tiny steps of updating parameters |
 | `step` | one single iteration to update parameters after **forward** and **backward** which passes one training batch|
+
+#### Learning Rate
+| Terminology | Description |
+| --- | --- |
+| `hyperparameter` | these parameters are not learned by the ML algorithm itself but can be **tuned** and **chosen** by the ML engineer to optimize the loss function |
+| `learning rate` | one of hyperparameters (floating point number) that define the rate at which we update the **weight (bias)** in the **backward step**, the learning rate multiplied by the **gradient** then plus with current *weight (bias)** values to calculate the **new weight(bias)** values|
+| `step size` | one synonym of the **learning rate**, some time this two-term can be used interchange|
+
+
+#### Optimize Learning Rate
+| Terminology | Description |
+| --- | --- |
+| `hyperparameter` | these parameters are not learned by the ML algorithm itself but can be **tuned** and **chosen** by the ML engineer to optimize the loss function |
+| `learning rate` | one of hyperparameters (floating point number) that define the rate at which we update the **weight (bias)** in the **backward step**, the learning rate multiplied by the **gradient** then plus with current *weight (bias)** values to calculate the **new weight(bias)** values. If the learning rate is too small, it will take a lot of time to get **convergence**, in contrast, if the learning rate is too large the model will never **converge**, appropriate learning help model learning fast and efficient |
+| `step size` | one synonym of the **learning rate**, some time this two-term can be used interchange|
+
+
+#### Stochastic Gradient Descent
+| Terminology | Description |
+| --- | --- |
+| `batch` | describe set of training examples passing through model in one single iteration |
+| `batch size` | number of training **examples** in one **batch**. For example: if **batch_size=50** we process 50 data examples in one **iteration** |
+| `mini-batch` | describe practice to pass a **batch** of randomly traininig examples with **batch size** greater than 10 and smaller than 1000 to model in one **iteration** |
+| `Stochastic Gradient Descent(SGD)` | describe practice to pass a **batch** with batch size equal 1 to model |
