@@ -72,3 +72,16 @@
 | `batch size` | number of training **examples** in one **batch**. For example: if **batch_size=50** we process 50 data examples in one **iteration** |
 | `mini-batch` | describe practice to pass a **batch** of randomly traininig examples with **batch size** greater than 10 and smaller than 1000 to model in one **iteration** |
 | `Stochastic Gradient Descent(SGD)` | describe practice to pass a **batch** with batch size equal 1 to model |
+
+### 4. Generalization
+
+#### Peril of Overfitting
+| Terminology | Description |
+| --- | --- |
+| `generalization` | the goal of ML model to achieve when learning from **training data**, in which, generalize the pattern of data to predict output from **unseen data** |
+| `overfitting` | the situation when the ML model performs well on the training set, but performs worse on the test set |
+| `prediction` | the same as **inference**, in which the trained feed with unseen data to produce an outcome |
+| `stationarity` | describe features that don't change value over one or more dimensions, and usually time |
+| `test set` | set of data examples to evaluate the accuracy of ML model after training on the training set |
+| `training set` | set of data examples feeding to ML model to learn the pattern from provided data by updating and optimizing model's parameters  |
+
