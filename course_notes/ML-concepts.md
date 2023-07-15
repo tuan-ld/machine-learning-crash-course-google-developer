@@ -85,3 +85,12 @@
 | `test set` | set of data examples to evaluate the accuracy of ML model after training on the training set |
 | `training set` | set of data examples feeding to ML model to learn the pattern from provided data by updating and optimizing model's parameters  |
 
+### 5.Validation set
+
+| Terminology | Description |
+| --- | --- |
+| `build_model` | define the topography of the model |
+| `train_model` | actual training step and output **training_loss** and **validation_loss** |
+| `plot_the_loss_curve` | function to plot the loss along with epoch for both training and validation set |
+| `validation_split` | floating point number indicates the ratio to split the training set to train and validation |
+| `shuffled_train_df` | before feeding the training dataset for **train_model** we need to shuffle the data to get rid of sorting examples following particular feature |
